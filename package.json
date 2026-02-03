@@ -2,7 +2,7 @@
     "name": "zotero-citation-picker",
     "displayName": "Citation Picker for Zotero",
     "description": "Zotero Better Bibtex citation picker for VS Code",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "mvuorre",
     "author": {
         "name": "Matti Vuorre",
@@ -86,8 +86,14 @@
                 },
                 "zotero-citation-picker.citeMethod": {
                     "type": "string",
-                    "enum": ["zotero", "vscode"],
-                    "enumDescriptions": ["Use the Zotero Cite as you Write popup", "Use a picker within VS Code"],
+                    "enum": [
+                        "zotero",
+                        "vscode"
+                    ],
+                    "enumDescriptions": [
+                        "Use the Zotero Cite as you Write popup",
+                        "Use a picker within VS Code"
+                    ],
                     "default": "vscode",
                     "markdownDescription": "Controls how Zotero citations are chosen"
                 }
